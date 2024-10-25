@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+dna="ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+dna.count("A")
+dna.count("T")
+length_A = dna.count("A")
+length_T=dna.count("T")
+int(length_A)+int(length_T)
+(int(length_A)+int(length_T))/int(len(dna))
+

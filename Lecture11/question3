@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+dna3=ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT
+cut=dna3.find("GAATTC")+1
+print(int(cut))
+fragment_1_length = int(cut)
+fragment_2_length = len(dna3) - int(cut)
+print(fragment_1_length)
+print(fragment_2_length)

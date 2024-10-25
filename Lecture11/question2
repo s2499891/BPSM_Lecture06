@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+dna="ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+complement1_dna= dna.replace("A","t")
+print(complement1_dna)
+complement2_dna= complement1_dna.replace("T","a")
+print(complement2_dna)
+complement3_dna= complement2_dna.replace("C","g")
+print(complement3_dna)
+complementall_dna= complement3_dna.replace("G","c")
+print(complementall_dna)
